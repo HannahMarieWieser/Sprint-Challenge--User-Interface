@@ -71,12 +71,49 @@ p {
     margin: 0 auto;
 }
 
+.static-navbar{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.static-navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    position: relative;
+}
+
+.static-navbar nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.toplinks{
+    display: flex;
+     width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.link{
+   
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.roadpic{
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .top-content .text-container {
@@ -143,4 +180,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box{
+    background: green;
+}
+
+.middle-content .boxes .bx1{
+    background-color: teal;
+}
+
+.middle-content .boxes .bx2{
+    background-color: gold;
+}
+
+.middle-content .boxes .bx3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .bx4{
+    background-color: coral;
+}
+
+.middle-content .boxes .bx5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .bx6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .bx7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .bx8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .bx9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .bx10{
+    background-color: dodgerblue;
 }
