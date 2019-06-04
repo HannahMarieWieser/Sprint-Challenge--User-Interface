@@ -71,12 +71,47 @@ p {
     margin: 0 auto;
 }
 
+.static-navbar{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.static-navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    position: relative;
+}
+
+.static-navbar nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.toplinks{
+    display: flex;
+     width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.roadpic{
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .top-content .text-container {
@@ -143,4 +178,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box{
+    background: green;
+}
+
+.middle-content .boxes .bx1{
+    background-color: teal;
+}
+
+.middle-content .boxes .bx2{
+    background-color: gold;
+}
+
+.middle-content .boxes .bx3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .bx4{
+    background-color: coral;
+}
+
+.middle-content .boxes .bx5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .bx6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .bx7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .bx8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .bx9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .bx10{
+    background-color: dodgerblue;
+}
+
+/* About page */
+
+.aboutbox{
+    border-bottom: 1px dashed black;
+}
+
+.abouttext{
+    padding-bottom: 20px;
+}
+
+.twoside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top:30px;
+   
+}
+
+.twoside .onebox {
+    justify-content: space-between;
+    width: 48%;
+    padding: 1% 1%;
+    padding-bottom: 15px;  
+    border-bottom: 1px dashed black;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.worktogether{
+    padding-top: 20px;
+    padding-bottom: 35px;
 }
